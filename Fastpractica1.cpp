@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string var_1;
+    string var_2;
+    // comentario
+    /*Nloque de comentarios*/
+    cout << "Inserte un saludo\n";
+    cin >> var_1;
+    cin.ignore(); // para limpiar el
+    cout << "Inserte una pequeña frase\n";
+    getline(cin, var_2);
+    cout << "Hola usando C++" << endl;
+    cout << var_1 << " usando C++\n";
+    cout << "frase instertada:" << var_2 << endl;
+    return 0;
+}
