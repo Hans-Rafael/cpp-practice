@@ -16,7 +16,7 @@ int main()
     cout << "Hola usando C++" << endl;
     cout << var_1 << " usando C++\n";
     cout << "frase instertada:" << var_2 << endl;
-    auto result = (10 <=> 20) < 0;
+    auto result = (10 <=> 20) > 0;
     cout << result << endl;
 
     return 0;
