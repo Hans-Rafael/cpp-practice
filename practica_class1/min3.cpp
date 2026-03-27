@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "holas desde main2" << endl;
+    float h,s;
+    cout << "horas" << endl;
+    cin >> h;
+    s= h*3600;
+    cout <<"segundos: " << s << endl;
     return 0;
 }
