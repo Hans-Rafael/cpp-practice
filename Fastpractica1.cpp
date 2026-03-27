@@ -7,10 +7,10 @@ int main()
     string var_1;
     string var_2;
     // comentario
-    /*Nloque de comentarios*/
+    /*Bloque de comentarios*/
     cout << "Inserte un saludo\n";
     cin >> var_1;
-    cin.ignore(); // para limpiar el
+    cin.ignore(); // para ignorar el intro y que no se salte el siguiente getline
     cout << "Inserte una pequeña frase\n";
     getline(cin, var_2);
     cout << "Hola usando C++" << endl;
