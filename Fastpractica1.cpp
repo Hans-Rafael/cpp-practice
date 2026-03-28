@@ -1,5 +1,5 @@
 #include <iostream>
-#include <compare>
+// #include <compare>
 using namespace std;
 
 int main()

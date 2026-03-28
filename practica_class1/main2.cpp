@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Programa de operaciones matematicas basicas
 int main()
 {
     int sol, a, b, op;
