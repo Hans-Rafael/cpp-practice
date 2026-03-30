@@ -20,7 +20,8 @@ int main()
     sueldoFin = (int)(sueldoFin * 100) / 100.0;
     cout << " " << endl;
     cout << "==========================================================================" << endl;
-    cout << "                          FICHA DEL EMPLEADO                              " <<endl;
+    cout << "                         FICHA DEL EMPLEADO                              " <<endl<<endl;
+    cout << "--------------------------------------------------------------------------"<<endl;
     cout << "Nombre Completo        :  "<< nombre << "  "<< apellido <<endl;
     cout << "edad                   :  "<< edad <<" años" << endl;
     cout << "porcentaje de aumento  :  "<< aumento<<" %"<<endl;
