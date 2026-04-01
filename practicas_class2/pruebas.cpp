@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 int main()
@@ -26,13 +27,13 @@ int main()
     switch (opcion)
     {
     case 1:
-        cout << "Elegiste la opción 1";
+        cout << "Elegiste la opción 1 \n";
         break;
     case 2:
-        cout << "Elegiste la opción 2"; // Esto se ejecutará
+        cout << "Elegiste la opción 2 "; // Esto se ejecutará y recordar usaren line o salto linea ultima linea se puede quedar en el buffer si no
         break;
     default:
-        cout << "Opción no válida"; // Respuesta por default
+        cout << "Opción no válida \n"; // Respuesta por default
         break;
     }
     return 0;

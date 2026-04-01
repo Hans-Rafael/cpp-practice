@@ -2,6 +2,7 @@
 using namespace std;
 
 int main()
+// Ficha de empleado creando
 {
     string nombre, apellido;
     int edad;
