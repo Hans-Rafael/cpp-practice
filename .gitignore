@@ -2,7 +2,6 @@
 # Config para linux lo dejo para recordatorio .vscode/*
 # .vs/
 .idea/
-build/
 
 
 # Build directories (nested anywhere)
