@@ -8,11 +8,7 @@ int main()
     string enter_1, user = "pepe";
     string enter_2, seña = "246";
     int count_f = 3, cont_in = 3;
-    for (size_t i = 0; i < count; i++)
-    {
-        /* code */
-    }
-
+    
     for (int i = 0; i < count_f; i++)
     {
         cout << "ingrese su nombre de usuario: ";
