@@ -8,6 +8,10 @@ int main()
     string enter_1, user = "pepe";
     string enter_2, seña = "246";
     int count_f = 3, cont_in = 3;
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */
+    }
 
     for (int i = 0; i < count_f; i++)
     {
@@ -23,7 +27,7 @@ int main()
         else
         {
             cont_in = cont_in - 1;
-            cout << "Entrada incorrecta. Intentos restantes: " << cont_in<<" OR "<< (i-2)/**-1*/<< endl;
+            cout << "Entrada incorrecta. Intentos restantes: " << cont_in << " OR " << (i - 2) /**-1*/ << endl;
         }
     }
 
