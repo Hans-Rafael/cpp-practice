@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
     cout << "Mes: ";
     cin >> mes;
     cout << "Año: ";
+    cin>>año;
 
     if (año < 0)
     {
@@ -42,7 +43,7 @@ int main(int argc, char const *argv[])
     }
     if (dia < 1 || dia > dia_max)
     {
-        cout << "Error: El dia " << dia << "no existe en el mes " << mes << endl;
+        cout << "Error: El dia " << dia << " no existe en el mes " << mes << endl;
         return 1;
     }
     // si paso toda las pruebas.
