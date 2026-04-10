@@ -1,18 +1,22 @@
 // Validacion de Fecha
 #include <iostream>
+#define MODO_PRUEBA 1
 using namespace std;
 
 int dia, mes, año;
 
 int main(int argc, char const *argv[])
 {
+#if MODO_PRUEBA == 1
+    cout << "DEBUG: El programa inicio correctamente\n";
+#endif
     cout << "====== Validacion de Fecha ======" << endl;
     cout << "Dia: ";
     cin >> dia;
     cout << "Mes: ";
     cin >> mes;
     cout << "Año: ";
-    cin>>año;
+    cin >> año;
 
     if (año < 0)
     {
