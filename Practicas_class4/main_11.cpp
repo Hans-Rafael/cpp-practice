@@ -4,11 +4,11 @@
 using namespace std;
 
 int main()
-{
+{ /**** CAjero automatico basico *****/
     double fondos, retiro, deposito;
     int opc;
-
     int continuar = 1; // 1 para seguir, 0 para salir
+
     // 1. INTENTAR LEER EL SALDO GUARDADO
     ifstream archivoLectura("saldo.txt");
     if (archivoLectura.is_open())
@@ -49,15 +49,15 @@ int main()
             cout << "No olvide tomar su tarjeta,al salir su dinero se entregara. gracias" << endl;
             break;
         case 4:
-           { // 2. GUARDAR EL SALDO ANTES DE SALIR
+        { // 2. GUARDAR EL SALDO ANTES DE SALIR
             ofstream archivoEscritura("saldo.txt");
             archivoEscritura << fondos;
             archivoEscritura.close();
 
             cout << "No olvide tomar su tarjeta, Gracias por venir" << endl;
             continuar = 0;
-           }
-            break;
+        }
+        break;
         default:
             cout << "Opcion no valida, intente de nuevo." << endl;
             break;
